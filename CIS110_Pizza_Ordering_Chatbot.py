@@ -44,9 +44,9 @@ while keepGoing.lower() == "y":
     print(f"Thank you, {userName}, for your order")
     print(f"Your {quantity} {size} {flavor} pizza(s) with {crustType} crust costs ${total:,.2f}.")
     if total >= 50:
-        print("\nCongratulations! You've been awarded a $10 off coupon for your next order.")
+        print("\nCongratulations! You've been awarded a $15 off coupon for your next order.")
     else:
-        print("\nOrder over $50 will receive a free $10 off coupon!")
+        print("\nOrder over $50 will receive a free $15 off coupon!")
     print("-" * 10)
     print("Order has been received. ETA 3 mins!")
     for min in range(3, 0, -1):
